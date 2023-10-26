@@ -5,81 +5,86 @@
         <v-img :src="item.src" contain></v-img>
       </v-carousel-item>
     </v-carousel>
-
-    <div class="searchBox" style="top: 20px; left: 900px">
-      <input
-        class="searchInput"
-        type="text"
-        name=""
-        placeholder="Search anime"
-      />
-      <button class="searchButton" href="#">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="29"
-          height="29"
-          viewBox="0 0 29 29"
-          fill="none"
-        >
-          <g clip-path="url(#clip0_2_17)">
-            <g filter="url(#filter0_d_2_17)">
-              <path
-                d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
-                stroke="white"
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                shape-rendering="crispEdges"
-              ></path>
+    <div>
+      <v-btn style="top: 80px;width: 100px;height: 50px;border-radius: 50px;" variant="outlined" ><a href= "http://localhost:8080/Animeedit" >Add Anime</a></v-btn>
+      <div class="searchBox" style="top: 20px; left: 900px">
+        <input
+          class="searchInput"
+          type="text"
+          name=""
+          placeholder="Search anime"
+        />
+        <button class="searchButton" href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="29"
+            height="29"
+            viewBox="0 0 29 29"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_2_17)">
+              <g filter="url(#filter0_d_2_17)">
+                <path
+                  d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                  stroke="white"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  shape-rendering="crispEdges"
+                ></path>
+              </g>
             </g>
-          </g>
-          <defs>
-            <filter
-              id="filter0_d_2_17"
-              x="-0.418549"
-              y="3.70435"
-              width="29.7139"
-              height="29.7139"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-              <feColorMatrix
-                in="SourceAlpha"
-                type="matrix"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                result="hardAlpha"
-              ></feColorMatrix>
-              <feOffset dy="4"></feOffset>
-              <feGaussianBlur stdDeviation="2"></feGaussianBlur>
-              <feComposite in2="hardAlpha" operator="out"></feComposite>
-              <feColorMatrix
-                type="matrix"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-              ></feColorMatrix>
-              <feBlend
-                mode="normal"
-                in2="BackgroundImageFix"
-                result="effect1_dropShadow_2_17"
-              ></feBlend>
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="effect1_dropShadow_2_17"
-                result="shape"
-              ></feBlend>
-            </filter>
-            <clipPath id="clip0_2_17">
-              <rect
-                width="28.0702"
-                height="28.0702"
-                fill="white"
-                transform="translate(0.403503 0.526367)"
-              ></rect>
-            </clipPath>
-          </defs>
-        </svg>
-      </button>
+            <defs>
+              <filter
+                id="filter0_d_2_17"
+                x="-0.418549"
+                y="3.70435"
+                width="29.7139"
+                height="29.7139"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                ></feColorMatrix>
+                <feOffset dy="4"></feOffset>
+                <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                <feComposite in2="hardAlpha" operator="out"></feComposite>
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                ></feColorMatrix>
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow_2_17"
+                ></feBlend>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow_2_17"
+                  result="shape"
+                ></feBlend>
+              </filter>
+              <clipPath id="clip0_2_17">
+                <rect
+                  width="28.0702"
+                  height="28.0702"
+                  fill="white"
+                  transform="translate(0.403503 0.526367)"
+                ></rect>
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </div>
     </div>
     <!-- Product Section Begin -->
     <section class="product spad">
@@ -106,19 +111,28 @@
                       class="product__item__pic set-bg"
                       src="../../public/img01/trending/trend-1.jpg"
                     >
-                      <div class="ep">18 / 18</div>
-                      <div class="comment">
-                        <i class="fa fa-comments"></i> 11
-                      </div>
-                      <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                      
                     </v-img>
                     <div class="product__item__text">
-                      <ul>
-                        <li>Active</li>
-                        <li>Movie</li>
-                      </ul>
+                     
                       <h5>
-                        <a href="http://localhost:8080/Animedetail">Boruto: Naruto next generations</a>
+                        <a href="http://localhost:8080/Animedetail"
+                          >Boruto: Naruto next generations</a
+                        >
+                        <div style="margin-top: 25px;">
+                          
+                          <v-btn rounded style="margin-left: 5px;background-color: #ffd900; ">
+                            Edit
+                          </v-btn>
+                          
+                         
+                            <v-btn rounded style="margin-left: 5px;background-color: #ff6445;">
+                              
+                                Delete
+                            </v-btn>
+                         
+                       
+                      </div>
                       </h5>
                     </div>
                   </div>
@@ -130,22 +144,31 @@
                       class="product__item__pic set-bg"
                       src="../../public/img01/trending/trend-2.jpg"
                     >
-                      <div class="ep">18 / 18</div>
-                      <div class="comment">
-                        <i class="fa fa-comments"></i> 11
-                      </div>
-                      <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                      
                     </v-img>
-                    <div class="product__item__text">
-                      <ul>
-                        <li>Active</li>
-                        <li>Movie</li>
-                      </ul>
-                      <h5>
-                        <a href="http://localhost:8080/Animedetail">Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien
-</a>
-                      </h5>
-                    </div>
+                    
+                      <h5 style="margin-top: 20px;">
+                        <a href="http://localhost:8080/Animedetail"
+                          >Gintama Movie 2: Kanketsu-hen 
+                        </a>
+                        
+                      </h5 >
+                      <div style="margin-top: 25px;">
+                          
+                          <v-btn rounded style="margin-left: 5px;background-color: #ffd900; ">
+                            Edit
+                          </v-btn>
+                          
+                         
+                            <v-btn rounded style="margin-left: 5px;background-color: #ff6445;">
+                              
+                                Delete
+                            </v-btn>
+                         
+                       
+                      </div>
+                      
+                   
                   </div>
                 </div>
 
@@ -155,20 +178,29 @@
                       class="product__item__pic set-bg"
                       src="../../public/img01/trending/trend-3.jpg"
                     >
-                      <div class="ep">18 / 18</div>
-                      <div class="comment">
-                        <i class="fa fa-comments"></i> 11
-                      </div>
-                      <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                      
                     </v-img>
                     <div class="product__item__text">
-                      <ul>
-                        <li>Active</li>
-                        <li>Movie</li>
-                      </ul>
-                      <h5>
-                        <a href="http://localhost:8080/Animedetail">Shingeki no Kyojin Season 3 Part 2</a>
+                     
+                      <h5 style="margin-top: 0px;">
+                        <a href="http://localhost:8080/Animedetail"
+                          >Shingeki no Kyojin Season 3 Part 2</a
+                        >
                       </h5>
+                      <div style="margin-top: 25px;">
+                          
+                          <v-btn rounded style="margin-left: 5px;background-color: #ffd900; ">
+                            Edit
+                          </v-btn>
+                          
+                         
+                            <v-btn rounded style="margin-left: 5px;background-color: #ff6445;">
+                              
+                                Delete
+                            </v-btn>
+                         
+                       
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -179,20 +211,29 @@
                       class="product__item__pic set-bg"
                       src="../../public/img01/trending/trend-4.jpg"
                     >
-                      <div class="ep">18 / 18</div>
-                      <div class="comment">
-                        <i class="fa fa-comments"></i> 11
-                      </div>
-                      <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                      
                     </v-img>
                     <div class="product__item__text">
-                      <ul>
-                        <li>Active</li>
-                        <li>Movie</li>
-                      </ul>
-                      <h5>
-                        <a href="http://localhost:8080/Animedetail">Fullmetal Alchemist: Brotherhood</a>
+                     
+                      <h5 style="margin-top: 7px;">
+                        <a href="http://localhost:8080/Animedetail"
+                          >Fullmetal Alchemist: Brotherhood</a
+                        >
                       </h5>
+                      <div style="margin-top: 25px;">
+                          
+                          <v-btn rounded style="margin-left: 5px;background-color: #ffd900; ">
+                            Edit
+                          </v-btn>
+                          
+                         
+                            <v-btn rounded style="margin-left: 5px;background-color: #ff6445;">
+                              
+                                Delete
+                            </v-btn>
+                         
+                       
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -215,7 +256,11 @@
                 >
                   <div class="ep">18 / ?</div>
                   <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                  <h5><a href="http://localhost:8080/Animedetail">Boruto: Naruto next generations</a></h5>
+                  <h5>
+                    <a href="http://localhost:8080/Animedetail"
+                      >Boruto: Naruto next generations</a
+                    >
+                  </h5>
                 </v-img>
 
                 <v-img
@@ -225,7 +270,9 @@
                   <div class="ep">18 / ?</div>
                   <div class="view"><i class="fa fa-eye"></i> 9141</div>
                   <h5>
-                    <a href="http://localhost:8080/Animedetail">The Seven Deadly Sins: Wrath of the Gods</a>
+                    <a href="http://localhost:8080/Animedetail"
+                      >The Seven Deadly Sins: Wrath of the Gods</a
+                    >
                   </h5>
                 </v-img>
 
@@ -262,7 +309,9 @@
                   <div class="ep">18 / ?</div>
                   <div class="view"><i class="fa fa-eye"></i> 9141</div>
                   <h5>
-                    <a href="http://localhost:8080/Animedetail">Fate stay night unlimited blade works</a>
+                    <a href="http://localhost:8080/Animedetail"
+                      >Fate stay night unlimited blade works</a
+                    >
                   </h5>
                 </v-img>
               </div>
@@ -282,7 +331,9 @@
                     <li>Movie</li>
                   </ul>
                   <h5>
-                    <a href="http://localhost:8080/Animedetail">The Seven Deadly Sins: Wrath of the Gods</a>
+                    <a href="http://localhost:8080/Animedetail"
+                      >The Seven Deadly Sins: Wrath of the Gods</a
+                    >
                   </h5>
                   <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
                 </div>
@@ -296,7 +347,11 @@
                     <li>Active</li>
                     <li>Movie</li>
                   </ul>
-                  <h5><a href="http://localhost:8080/Animedetail">Shirogane Tamashii hen Kouhan sen</a></h5>
+                  <h5>
+                    <a href="http://localhost:8080/Animedetail"
+                      >Shirogane Tamashii hen Kouhan sen</a
+                    >
+                  </h5>
                   <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
                 </div>
               </div>
@@ -309,7 +364,11 @@
                     <li>Active</li>
                     <li>Movie</li>
                   </ul>
-                  <h5><a href="http://localhost:8080/Animedetail">Kizumonogatari III: Reiket su-hen</a></h5>
+                  <h5>
+                    <a href="http://localhost:8080/Animedetail"
+                      >Kizumonogatari III: Reiket su-hen</a
+                    >
+                  </h5>
                   <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
                 </div>
               </div>
@@ -322,7 +381,11 @@
                     <li>Active</li>
                     <li>Movie</li>
                   </ul>
-                  <h5><a href="http://localhost:8080/Animedetail">Monogatari Series: Second Season</a></h5>
+                  <h5>
+                    <a href="http://localhost:8080/Animedetail"
+                      >Monogatari Series: Second Season</a
+                    >
+                  </h5>
                   <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
                 </div>
               </div>
@@ -334,8 +397,8 @@
     <!-- Product Section End -->
   </v-container>
 </template >
-
-<style>
+  
+  <style>
 .temp1 {
   background-color: aliceblue;
   height: 32px;
@@ -945,8 +1008,8 @@ button:active {
 }
 
 /*---------------------
-  Anime Watching
------------------------*/
+    Anime Watching
+  -----------------------*/
 
 .anime__video__player {
   margin-bottom: 70px;
@@ -1060,8 +1123,8 @@ button:active {
 }
 
 /*---------------------
-  Breadcrumb
------------------------*/
+    Breadcrumb
+  -----------------------*/
 
 .breadcrumb-option {
   padding-top: 35px;
@@ -1095,8 +1158,8 @@ button:active {
 }
 
 /*---------------------
-    Normal Breadcrumb
------------------------*/
+      Normal Breadcrumb
+  -----------------------*/
 
 .normal-breadcrumb {
   height: 300px;
@@ -1126,8 +1189,8 @@ button:active {
 }
 
 /*---------------------
-    Blog
------------------------*/
+      Blog
+  -----------------------*/
 
 .blog {
   padding-top: 70px;
@@ -1184,8 +1247,8 @@ button:active {
 }
 
 /*---------------------
-  Blog Details
------------------------*/
+    Blog Details
+  -----------------------*/
 
 .blog-details {
   padding-top: 70px;
@@ -1484,8 +1547,8 @@ button:active {
 }
 
 /*---------------------
-  Login
------------------------*/
+    Login
+  -----------------------*/
 
 .login {
   padding-top: 130px;
@@ -1658,8 +1721,8 @@ button:active {
 }
 
 /*---------------------
-  Sign Up
------------------------*/
+    Sign Up
+  -----------------------*/
 
 .signup {
   padding-top: 130px;
@@ -1699,8 +1762,8 @@ button:active {
 }
 
 /*---------------------
-  Footer
------------------------*/
+    Footer
+  -----------------------*/
 
 .footer {
   background: #070720;
@@ -2113,8 +2176,8 @@ button:active {
 }
 
 /*---------------------
-  Helper CSS
------------------------*/
+    Helper CSS
+  -----------------------*/
 
 .section-title {
   margin-bottom: 30px;
@@ -2327,8 +2390,8 @@ button:active {
 }
 
 /*---------------------
-  Header
------------------------*/
+    Header
+  -----------------------*/
 
 .header {
   background: #070720;
@@ -2484,8 +2547,8 @@ button:active {
   transform: scale(100) translateX(2px);
 }
 </style>
-
-<script>
+  
+  <script>
 export default {
   data() {
     return {
@@ -2523,8 +2586,9 @@ export default {
   },
 };
 </script>
-
-
-
-
-
+  
+  
+  
+  
+  
+  
