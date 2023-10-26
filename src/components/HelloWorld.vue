@@ -97,7 +97,13 @@
                   </div>
                 </div>
 
+<<<<<<< HEAD
                 <div class="col-lg-4 col-md-4 col-sm-4"></div>
+=======
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                 
+                </div>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
               </div>
               <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -118,7 +124,11 @@
                         <li>Movie</li>
                       </ul>
                       <h5>
+<<<<<<< HEAD
                         <a href="http://localhost:8080/Animedetail">Boruto: Naruto next generations</a>
+=======
+                        <a href="#">The Seven Deadly Sins: Wrath of the Gods</a>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                       </h5>
                     </div>
                   </div>
@@ -142,8 +152,12 @@
                         <li>Movie</li>
                       </ul>
                       <h5>
+<<<<<<< HEAD
                         <a href="http://localhost:8080/Animedetail">Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien
 </a>
+=======
+                        <a href="#">The Seven Deadly Sins: Wrath of the Gods</a>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                       </h5>
                     </div>
                   </div>
@@ -167,7 +181,11 @@
                         <li>Movie</li>
                       </ul>
                       <h5>
+<<<<<<< HEAD
                         <a href="http://localhost:8080/Animedetail">Shingeki no Kyojin Season 3 Part 2</a>
+=======
+                        <a href="#">The Seven Deadly Sins: Wrath of the Gods</a>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                       </h5>
                     </div>
                   </div>
@@ -191,7 +209,11 @@
                         <li>Movie</li>
                       </ul>
                       <h5>
+<<<<<<< HEAD
                         <a href="http://localhost:8080/Animedetail">Fullmetal Alchemist: Brotherhood</a>
+=======
+                        <a href="#">The Seven Deadly Sins: Wrath of the Gods</a>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                       </h5>
                     </div>
                   </div>
@@ -215,7 +237,11 @@
                 >
                   <div class="ep">18 / ?</div>
                   <div class="view"><i class="fa fa-eye"></i> 9141</div>
+<<<<<<< HEAD
                   <h5><a href="http://localhost:8080/Animedetail">Boruto: Naruto next generations</a></h5>
+=======
+                  <h5><a href="#">Boruto: Naruto next generations</a></h5>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                 </v-img>
 
                 <v-img
@@ -225,7 +251,11 @@
                   <div class="ep">18 / ?</div>
                   <div class="view"><i class="fa fa-eye"></i> 9141</div>
                   <h5>
+<<<<<<< HEAD
                     <a href="http://localhost:8080/Animedetail">The Seven Deadly Sins: Wrath of the Gods</a>
+=======
+                    <a href="#">The Seven Deadly Sins: Wrath of the Gods</a>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                   </h5>
                 </v-img>
 
@@ -236,7 +266,11 @@
                   <div class="ep">18 / ?</div>
                   <div class="view"><i class="fa fa-eye"></i> 9141</div>
                   <h5>
+<<<<<<< HEAD
                     <a href="http://localhost:8080/Animedetail"
+=======
+                    <a href="#"
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                       >Sword art online alicization war of underworld</a
                     >
                   </h5>
@@ -249,7 +283,11 @@
                   <div class="ep">18 / ?</div>
                   <div class="view"><i class="fa fa-eye"></i> 9141</div>
                   <h5>
+<<<<<<< HEAD
                     <a href="http://localhost:8080/Animedetail"
+=======
+                    <a href="#"
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                       >Fate/stay night: Heaven's Feel I. presage flower</a
                     >
                   </h5>
@@ -262,7 +300,11 @@
                   <div class="ep">18 / ?</div>
                   <div class="view"><i class="fa fa-eye"></i> 9141</div>
                   <h5>
+<<<<<<< HEAD
                     <a href="http://localhost:8080/Animedetail">Fate stay night unlimited blade works</a>
+=======
+                    <a href="#">Fate stay night unlimited blade works</a>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                   </h5>
                 </v-img>
               </div>
@@ -282,7 +324,11 @@
                     <li>Movie</li>
                   </ul>
                   <h5>
+<<<<<<< HEAD
                     <a href="http://localhost:8080/Animedetail">The Seven Deadly Sins: Wrath of the Gods</a>
+=======
+                    <a href="#">The Seven Deadly Sins: Wrath of the Gods</a>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                   </h5>
                   <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
                 </div>
@@ -296,7 +342,11 @@
                     <li>Active</li>
                     <li>Movie</li>
                   </ul>
+<<<<<<< HEAD
                   <h5><a href="http://localhost:8080/Animedetail">Shirogane Tamashii hen Kouhan sen</a></h5>
+=======
+                  <h5><a href="#">Shirogane Tamashii hen Kouhan sen</a></h5>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                   <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
                 </div>
               </div>
@@ -309,7 +359,11 @@
                     <li>Active</li>
                     <li>Movie</li>
                   </ul>
+<<<<<<< HEAD
                   <h5><a href="http://localhost:8080/Animedetail">Kizumonogatari III: Reiket su-hen</a></h5>
+=======
+                  <h5><a href="#">Kizumonogatari III: Reiket su-hen</a></h5>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                   <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
                 </div>
               </div>
@@ -322,7 +376,11 @@
                     <li>Active</li>
                     <li>Movie</li>
                   </ul>
+<<<<<<< HEAD
                   <h5><a href="http://localhost:8080/Animedetail">Monogatari Series: Second Season</a></h5>
+=======
+                  <h5><a href="#">Monogatari Series: Second Season</a></h5>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                   <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
                 </div>
               </div>
@@ -2500,7 +2558,11 @@ export default {
           src: require("D:/Anime/workshop/public/img/posanime/sword-art-online.jpg"),
         },
         {
+<<<<<<< HEAD
           src: require("D:/Anime/workshop/public/img/posanime/naruto-shippuden-rxxyiybobk8m0q7u.jpg"),
+=======
+          src:  require("D:/Anime/workshop/public/img/posanime/naruto-shippuden-rxxyiybobk8m0q7u.jpg"),
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
         },
       ],
       loading: false, // คุณควรกำหนด loading เป็น false ใน data หรือกำหนดค่าเริ่มต้นที่ต้องการ

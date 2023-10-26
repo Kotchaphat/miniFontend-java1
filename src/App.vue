@@ -27,8 +27,11 @@
       <v-btn :class="'primary-button'" text @click="goTopageLogin()" > Login </v-btn>
     
       <v-btn :class="'primary-button'" text @click="goToRegister()" > Register </v-btn>
+<<<<<<< HEAD
       <v-btn :class="'primary-button'" text @click="goToLogout()" > Logout </v-btn>
       <v-btn :class="'primary-button'" text @click="goToanimeadmin()" > animeadmin </v-btn>
+=======
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
     </v-app-bar>
 
     <v-main>
@@ -168,6 +171,7 @@ export default {
       this.appBarHeight = "64px";
       this.$router.push({ path: "/Animedetail" }).catch(() => {});
     },
+<<<<<<< HEAD
 
 
     goToLogout() {
@@ -184,6 +188,8 @@ export default {
       this.appBarHeight = "64px";
       this.$router.push({ path: "/animeadmin" }).catch(() => {});
     },
+=======
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
   },
 };
 </script>

@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <v-container>
     <div style="padding: 100px"></div>
     <v-card
@@ -58,6 +59,53 @@
             </form>
 
             <p class="signin">Don't have an account? <a href="http://localhost:8080/Register">Signup</a></p>
+=======
+  <v-container  >
+    <div style="padding: 100px;"></div>
+    <v-card
+      :loading="loading"
+     
+      max-width="80%"
+      max-height="550px"
+      style="background-color: rgb(255, 255, 255); padding: 30px;margin-left: 11%;"
+      
+>
+
+      <v-row>
+        <v-col cols="12" md="6">
+          <v-img
+          
+            class="mx-auto"
+            width="100%"
+            height="84%"
+            
+            src="../../public/img/posanime/login-bg.png" style="object-fit:
+            cover; object-position: center center; "
+            
+            ></v-img
+          >
+        </v-col>
+        <v-col cols="12" md="6">
+          <v-card-text class="form">
+           
+            <p class="title" >Login</p>
+           
+            <p class="message">Login now and get full access to our app.</p>
+          
+            <label style="top: 20px;">
+              <input class="input" type="password" placeholder="" required="" />
+              <span>Username</span>
+            </label>
+            <label style="top: 50px;">
+              <input class="input" type="password" placeholder="" required="" />
+              <span>password</span>
+            </label>
+            <p  style="top: 100px;"></p>
+            <button class="submit" style="margin-top: 50px; width: 200px; margin-left: 90px;" >Login</button>
+            <p class="signin">
+              Already have an acount ? <a href="#">Signin</a>
+            </p>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
           </v-card-text>
         </v-col>
       </v-row>
@@ -208,7 +256,11 @@
   width: 16px;
   border-radius: 50%;
   left: 0px;
+<<<<<<< HEAD
   background-color: #ff00002a;
+=======
+  background-color: #ff0000;
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
 }
 
 .message,
@@ -245,7 +297,10 @@
   width: 100%;
   padding: 20px 05px 05px 10px;
   outline: 0;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
   border: 1px solid rgba(105, 105, 105, 0.397);
   border-radius: 10px;
 }
@@ -254,8 +309,12 @@
   color: rgb(255, 0, 0);
   position: absolute;
   left: 10px;
+<<<<<<< HEAD
   margin-top: -35px;
   
+=======
+  top: 0px;
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
   font-size: 0.9em;
   cursor: text;
   transition: 0.3s ease;
@@ -284,7 +343,11 @@
   outline: none;
   padding: 10px;
   border-radius: 50px;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
   margin: 5%;
   color: #fff;
   font-size: 16px;
@@ -309,6 +372,7 @@
 }
 </style>
   
+<<<<<<< HEAD
 <script>
 import axios from "axios"; // Import Axios for making HTTP requests
 
@@ -363,5 +427,12 @@ export default {
 };
 </script>
 
+=======
+  <script>
+
+
+</script>
+  
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
   
   

@@ -10,16 +10,47 @@
                 class="anime__details__pic set-bg"
                 src="../../public/img01/anime/details-pic.jpg"
               >
+<<<<<<< HEAD
                 
+=======
+                <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                <div class="view"><i class="fa fa-eye"></i> 9141</div>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
               </v-img>
             </div>
             <div class="col-lg-9">
               <div class="anime__details__text">
                 <div class="anime__details__title">
                   <h3>Fate Stay Night: Unlimited Blade</h3>
+<<<<<<< HEAD
                  
                 </div>
               
+=======
+                  <span>フェイト／ステイナイト, Feito／sutei naito</span>
+                </div>
+                <div class="anime__details__rating">
+                  <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio" />
+                    <label title="text" for="star5"></label>
+                    <input value="4" name="rate" id="star4" type="radio" />
+                    <label title="text" for="star4"></label>
+                    <input
+                      value="3"
+                      name="rate"
+                      id="star3"
+                      type="radio"
+                      checked=""
+                    />
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio" />
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio" />
+                    <label title="text" for="star1"></label>
+                  </div>
+                  <span>1.029 Votes</span>
+                </div>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                 <p>
                   Every human inhabiting the world of Alcia is branded by a
                   “Count” or a number written on their body. For Hina’s mother,
@@ -34,15 +65,30 @@
                       <ul>
                         <li><span>Type:</span> TV Series</li>
                         <li><span>Studios:</span> Lerche</li>
+<<<<<<< HEAD
                         <li><span>Year:</span> Oct 02, 2019 to ?</li>
                         
+=======
+                        <li><span>Date aired:</span> Oct 02, 2019 to ?</li>
+                        <li><span>Status:</span> Airing</li>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                         <li>
                           <span>Genre:</span> Action, Adventure, Fantasy, Magic
                         </li>
                       </ul>
                     </div>
                     <div class="col-lg-6 col-md-6">
+<<<<<<< HEAD
                      
+=======
+                      <ul>
+                        <li><span>Scores:</span> 7.31 / 1,515</li>
+                        <li><span>Rating:</span> 8.5 / 161 times</li>
+                        <li><span>Duration:</span> 24 min/ep</li>
+                        <li><span>Quality:</span> HD</li>
+                        <li><span>Views:</span> 131,541</li>
+                      </ul>
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
                     </div>
                   </div>
                 </div>

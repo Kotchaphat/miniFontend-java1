@@ -34,6 +34,7 @@ const routes = [
     name : 'AnimeDetail',
     component : ()=> import('../views/AnimeDetailView.vue')
   },
+<<<<<<< HEAD
   {
     path : '/Logout',
     name : 'Logout',
@@ -52,6 +53,9 @@ const routes = [
 
  
 
+=======
+  
+>>>>>>> 4a25b1aae0c1fdd1388140efd685cdeae818ca75
 ]
 
 const router = new VueRouter({
